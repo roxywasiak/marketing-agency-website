@@ -90,22 +90,23 @@ p {
 }
 /* benefits titles*/
 
-.benefit-lead h3 img {
+.benefit-lead img {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
-/*
 .benefit-lead h3 {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
+/*
 .benefit-lead img {
   margin-bottom: 32px;
   color: #ffffff;
 }
 */
+
 /*png images on the aside section*/
 
 .benefit-lead img {
