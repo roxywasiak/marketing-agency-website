@@ -1,5 +1,3 @@
-/*made red borders temporarily just to see what elements need targeting ...will delete after*/
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -31,7 +29,8 @@ body {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
-  font-family: "Gill Sans", "Gill Sans MT", Calibre, "Trebuchet MS", sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibre", "Trebuchet MS",
+    sans-serif;
   font-size: 20px;
 }
 
@@ -91,11 +90,12 @@ p {
 }
 /* benefits titles*/
 
-.benefit-lead {
+.benefit-lead h3 img {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
+/*
 .benefit-lead h3 {
   margin-bottom: 32px;
   color: #ffffff;
@@ -105,7 +105,7 @@ p {
   margin-bottom: 32px;
   color: #ffffff;
 }
-
+*/
 /*png images on the aside section*/
 
 .benefit-lead img {
@@ -113,6 +113,7 @@ p {
   margin: 10px auto;
   max-width: 150px;
 }
+/*
 
 .benefit-brand img {
   display: block;
@@ -125,6 +126,7 @@ p {
   margin: 10px auto;
   max-width: 150px;
 }
+*/
 
 /*main 3 sections where images are*/
 
@@ -138,7 +140,8 @@ p {
   color: #ffffff;
 }
 
-.online-reputation-management {
+/*
+.online-reputation-management h2 {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -148,7 +151,7 @@ p {
   color: #ffffff;
 }
 
-.social-media-marketing {
+.social-media-marketing img {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -157,13 +160,13 @@ p {
   background-color: #0072bb;
   color: #ffffff;
 }
-
+*/
 /*main 3 images of the sections*/
 
 .search-engine-optimization img {
   max-height: 200px;
 }
-
+/*
 .online-reputation-management img {
   max-height: 200px;
 }
@@ -171,6 +174,7 @@ p {
 .social-media-marketing img {
   max-height: 200px;
 }
+*/
 
 /*h2 text for main 3 sections*/
 
@@ -178,7 +182,7 @@ p {
   margin-bottom: 20px;
   font-size: 36px;
 }
-
+/*
 .online-reputation-management h2 {
   margin-bottom: 20px;
   font-size: 36px;
@@ -187,7 +191,10 @@ p {
 .social-media-marketing h2 {
   margin-bottom: 20px;
   font-size: 36px;
-}
+} 
+*/
+
+/*I have kept the code as commented out wanted to go back and forth just to see what was going on with the code one step at a time as I  changed it rather than keep pulling and pushing*/
 
 .footer {
   padding: 30px;
